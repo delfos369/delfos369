@@ -1,0 +1,324 @@
+/*********footer*************************/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {  
+  /* CSS */
+    
+footer{
+  position:relative;
+ background-color: #f2e205;
+}
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+    
+
+footer{
+  position:relative;
+ background-color: #f2e205;
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+  
+
+footer{
+  position:relative;
+ background-color: #f2e205;
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
+
+
+footer{
+  position:relative;
+ background-color: #000000;
+ height: 100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 1%;
+  
+}
+
+
+
+.titulo-final h2{
+  
+
+position: absolute;
+  text-align:right;
+  font-size: 10px;
+padding: 0%;
+bottom: 10px;
+color: #f2b21d;
+z-index: 99;
+left: 90%;
+
+}
+
+.titulo-final{
+    
+    font-size: 20px;
+}
+
+.content-foo h4{
+ 
+  font-family: "Urbanist", sans-serif;
+
+}
+.contenedor-footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.content-foo{
+  text-align: center;
+}
+.content-foo p{
+  font-size: 17 px;
+
+}
+
+/* title footer */
+.content-foo h4{
+  color: #ffffff;
+  border-bottom: 3px solid #594916;
+  margin-bottom: 5px;
+
+
+}
+.content-foo.black  h4{
+  color: #ffffff;
+  border-bottom: 3px solid #594916;
+  margin-bottom: 5px;
+}
+
+/* iconos color*/
+
+
+.bi-telephone-fill{
+  color: #ffffff;
+}
+
+.bi-geo-alt-fill{
+  color: #ffffff;
+}
+
+.bi-envelope-fill{
+color: #ffffff;
+}
+
+.bi-linkedin{
+  color: #ffffff;
+}
+
+
+.bi-telephone-fill:hover , .bi-geo-alt-fill:hover , .bi-envelope-fill:hover,  .bi-linkedin:hover{
+  color: 	#f2b21d;
+  size: 20px;
+}
+
+
+
+
+
+/* */
+.content-foo p{
+  color: #ffffff;
+
+}
+
+.content-foo.black p{
+  color: #ffffff;
+}
+.footer__icons{
+  display: inline-block;
+  justify-content: space-evenly;
+  padding: 10px;
+ 
+}
+
+
+.footer__icon{
+  color: inherit;
+  font-size: 20px;
+  text-decoration: none;
+
+ 
+}
+
+
+
+
+
+@media screen and (max-width:1024px) {
+
+  footer{
+    background-color: #f2e205;
+    height: 100px;
+     margin: auto;
+     overflow: hidden;
+    
+   }
+
+ 
+  
+  
+  }
+
+/********footer Version Tablet*********************/
+
+@media  (min-width:1020px) and (max-width: 1280px)  {
+
+  footer{
+    background-color: #000000;
+
+     margin: auto;
+     overflow: hidden;
+     padding: 1%;
+   }
+
+  }
+
+
+  /********footer Version Movil*********************/
+@media screen and (max-width:960px)  {
+
+  footer{
+    background-color: #f2e205;
+    height: 200px;
+     margin: auto;
+     overflow: hidden;
+     padding: 1%;
+   }
+
+   .content-foo.black  h4{
+    color: #ffffff;
+    border-bottom: 3px solid #f2e205;
+    margin-bottom: 5px;
+  
+  
+  }
+
+  
+.titulo-final h2{
+  
+
+  position: absolute;
+    text-align:right;
+    font-size: 10px;
+  
+  padding: 0%;
+  bottom: 10px;
+  color: #f2b21d;
+  z-index: 99;
+  
+  left: 75%;
+  
+  }
+  
+
+  
+  .bi-envelope-fill{
+  color: #ffffff;
+  }
+  
+  .bi-linkedin{
+    color: #ffffff;
+  }
+  
+
+
+
+  
+.content-foo p{
+  font-size: 15px;
+
+
+}
+  
+  .contenedor-footer{
+      flex-direction: column;
+      border: none;
+  }
+
+  .content-foo{
+      margin-bottom: 20er;
+  }
+
+  .content-foo h4{
+    border-bottom: 3px solid  #f2e205;
+  margin-bottom: 5px;
+
+  }
+
+
+
+}
+
+
+/********************************************/
+
+
+
